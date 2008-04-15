@@ -2,21 +2,21 @@
 <Module>
 <ModulePrefs 
      title="Audio Visual Metronome"
-     title_url="http://www.geocities.com/delabs/"
+     title_url="http://gadgets.dapj.com/2008/04/electronic-organ-and-metronome.html"
      description="Companion Beat Box for Playing Music, Set Sequence of Sounds, Set Tempo and Play a Rhythm"
      height="500" width="210"
      directory_title="Audio Visual Metronome"
-     author="Anantha Narayan"
+     author="dapj"
      author_location="Bangalore, India"
-     author_affiliation="SAN Gear"
-     screenshot="http://www.geocities.com/delabs/gadgets/beat-box/bbox.jpg"
-     thumbnail="http://www.geocities.com/delabs/gadgets/beat-box/bbox-tn.jpg"
+     author_affiliation="dapj.com"
+     screenshot="http://audio-visual-metronome.googlecode.com/svn/trunk/bbox.jpg"
+     thumbnail="http://audio-visual-metronome.googlecode.com/svn/trunk/bbox-tn.jpg"
      scaling="false"
      scrolling="false"
-     author_photo="http://www.geocities.com/delabs/gadgets/anantha-narayan.png"
-     author_aboutme="Electronic Webmaster"
-     author_link="http://sangear.googlepages.com/"
-     author_quote="From SoulNet to InterNet"
-     author_email="delabs@yahoo.com"/>
-<Content type="url" href="http://www.geocities.com/delabs/gadgets/beat-box/metronome.html" />
+     author_photo="http://wap-browser.googlecode.com/svn/trunk/delogo.png"
+     author_aboutme="Electronic Product Designer"
+     author_link="http://www.dapj.com/"
+     author_quote="Design with a Difference - Solderman"
+     author_email="gadgets@dapj.com"/>
+<Content type="url" href="http://audio-visual-metronome.googlecode.com/svn/trunk/metronome.html" />
 </Module>
