@@ -1,0 +1,87 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<script language="Javascript" type="text/javascript" src="dom-drag.js">
+<!--
+// Drag Drop Script - By Dynamic Drive
+// For full source code and more DHTML scripts, visit http://www.dynamicdrive.com
+// This credit MUST stay intact for use
+//-->
+</script>
+<script type="text/javascript" src="sound.js"></script>
+<script type="text/javascript" src="mm.js"></script>
+  <meta name="generator" content="textpad 4.6">
+  <meta name="keywords" content="music,rhythm,beats,drums,metronome,drums,gadget,widget,beat box,toy">
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+  <meta content="Anantha Narayan" name="author">
+  <meta content="Companion Beat Box for Playing Music, Set Sequence of Sounds, Set Tempo and Play a Rhythm" name="description">
+  <link rel="StyleSheet" href="style.css" type="text/css">
+  <title>Audio Visual Metronome</title>
+</head>
+<body alink="#ff00ff" bgcolor="#ffffff" link="#ff0000" text="#000000" vlink="#800000">
+<div class="frame-holder">
+<div class="color_bar"><span id="music_bar">
+Audio Visual Metronome<br/><b><a target="_blank" href="http://www.geocities.com/delabs/">SAN Gear</a></b><font class='h_nav' onclick='help_show();'>Help</font>
+</span></div>
+<div class="row_a"><img name="sw_1" class="sound_btn" src="sw-off.png" onClick="playsound('1','sw_1');">&nbsp;<img name="led_1" class="sound_btn" src="pngs/a1-off.png">
+<div id="dly_control"><div style="position: relative; left:10; top:0;" id="dly_set"></div></div>
+<div class="d_track"></div>
+</div>
+<div class="row_b"><img name="sw_2" class="sound_btn" src="sw-off.png" onClick="playsound('2','sw_2');">&nbsp;<img name="led_2" class="sound_btn" src="pngs/a2-off.png">
+<div id="dly_control2"><div style="position: relative; left:20; top:0;" id="dly_set2"></div></div>
+<div class="d_track"></div>
+</div>
+<div class="row_c"><img name="sw_3" class="sound_btn" src="sw-off.png" onClick="playsound('3','sw_3');">&nbsp;<img name="led_3" class="sound_btn" src="pngs/a3-off.png">
+<div id="dly_control3"><div style="position: relative; left:30; top:0;" id="dly_set3"></div></div>
+<div class="d_track"></div>
+</div>
+<div class="row_d"><img name="sw_4" class="sound_btn" src="sw-off.png" onClick="playsound('4','sw_4');">&nbsp;<img name="led_4" class="sound_btn" src="pngs/a4-off.png">
+<div id="dly_control4"><div style="position: relative; left:40; top:0;" id="dly_set4"></div></div>
+<div class="d_track"></div>
+</div>
+<div class="row_e"><img name="sw_5" class="sound_btn" src="sw-off.png" onClick="playsound('5','sw_5');">&nbsp;<img name="led_5" class="sound_btn" src="pngs/a5-off.png">
+<div id="dly_control5"><div style="position: relative; left:50; top:0;" id="dly_set5"></div></div>
+<div class="d_track"></div>
+</div>
+<div class="row_f"><img name="sw_6" class="sound_btn" src="sw-off.png" onClick="playsound('6','sw_6');">&nbsp;<img name="led_6" class="sound_btn" src="pngs/a6-off.png">
+<div id="dly_control6"><div style="position: relative; left:60; top:0;" id="dly_set6"></div></div>
+<div class="d_track"></div>
+</div>
+<div class="row_g"><img name="sw_7" class="sound_btn" src="sw-off.png" onClick="playsound('7','sw_7');">&nbsp;<img name="led_7" class="sound_btn" src="pngs/a7-off.png">
+<div id="dly_control7"><div style="position: relative; left:10; top:0;" id="dly_set7"></div></div>
+<div class="d_track"></div>
+</div>
+<div class="row_h"><img name="sw_8" class="sound_btn" src="sw-off.png" onClick="playsound('8','sw_8');">&nbsp;<img name="led_8" class="sound_btn" src="pngs/a8-off.png">
+<div id="dly_control8"><div style="position: relative; left:20; top:0;" id="dly_set8"></div></div>
+<div class="d_track"></div>
+</div>
+<div class="row_i"><img name="sw_9" class="sound_btn" src="sw-off.png" onClick="playsound('9','sw_9');">&nbsp;<img name="led_9" class="sound_btn" src="pngs/a9-off.png">
+<div id="dly_control9"><div style="position: relative; left:30; top:0;" id="dly_set9"></div></div>
+<div class="d_track"></div>
+</div>
+<div class="row_j"><img name="sw_10" class="sound_btn" src="sw-off.png" onClick="playsound('10','sw_10');">&nbsp;<img name="led_10" class="sound_btn" src="pngs/a10-off.png">
+<div id="dly_control10"><div style="position: relative; left:70; top:0;" id="dly_set10"></div></div>
+<div class="d_track"></div>
+</div>
+<div class="row_k"><img name="sw_11" class="sound_btn" src="sw-off.png" onClick="playsound('11','sw_11');">&nbsp;<img name="led_11" class="sound_btn" src="pngs/a11-off.png">
+<div id="dly_control11"><div style="position: relative; left:80; top:0;" id="dly_set11"></div></div>
+<div class="d_track"></div>
+</div>
+<div class="row_l"><img name="sw_12" class="sound_btn" src="sw-off.png" onClick="playsound('12','sw_12');">&nbsp;<img name="led_12" class="sound_btn" src="pngs/a12-off.png">
+<div id="dly_control12"><div style="position: relative; left:90; top:0;" id="dly_set12"></div></div>
+<div class="d_track"></div>
+</div>
+<div class="dly_txt">Sequence</div>
+<div id="tem_control"><div style="position: relative; left:75; top:0;" id="tem_set"></div></div>
+<div class="t_track"></div>
+<div class="tem_txt">Tempo</div>
+<div id="vol_control"><div style="position: relative; left:120; top:0;" id="vol_set"></div></div>
+<div class="v_track"></div>
+<div class="vol_txt">Volume</div>
+<div class="btn_play"><img name="play_btn" src="play.png" alt="Start-Stop" title="Start-Stop" onClick="start_beats();"></div>
+<div class="credits"><a target="_blank" href="http://www.geocities.com/delabs/">SAN Gear</a></div>
+<script language="Javascript" type="text/javascript" src="gui.js"></script>
+</div>
+<div class="back-cloth"></div>
+</body>
+</html>
