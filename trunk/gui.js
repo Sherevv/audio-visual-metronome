@@ -440,7 +440,7 @@ linktext[11]="<img src='track.jpg' align='left'><img src='point.png' align='righ
 linktext[12]="<img src='track.jpg' align='left'><img src='point.png' align='right'><br/>Volume - Slide to Set.<div class='h_nav'><font onclick='help_next(11);'>Prev</font>--<font onclick='help_next(13);'>Next</font></div>";
 linktext[13]="How - ON Beats, Set all Sequence, Set Tempo - Play.<div class='h_nav'><font onclick='help_next(12);'>Prev</font>--<font onclick='help_next(14);'>Next</font></div>";
 linktext[14]="More - After Stop, The Last Cycle of Beats will Still Play.<div class='h_nav'><font onclick='help_next(13);'>Prev</font>--<font onclick='help_next(15);'>Next</font></div>";
-linktext[15]="<b><a target='_blank' href='http://sangear.googlepages.com/metronome'>Metronome Gadget Page</a></b><br/><br/><div class='h_nav'><font onclick='help_next(14);'>Prev</font>--<font onclick='help_next(7);'>Home</font></div>";
+linktext[15]="<b><a target='_blank' href='http://gadgets.dapj.com/2008/04/electronic-organ-and-metronome.html'>Metronome Gadget Page</a></b><br/><br/><div class='h_nav'><font onclick='help_next(14);'>Prev</font>--<font onclick='help_next(7);'>Home</font></div>";
 //
 var ns6=document.getElementById&&!document.all
 var ie=document.all
