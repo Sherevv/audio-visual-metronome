@@ -18,5 +18,7 @@
      author_link="http://www.dapj.com/"
      author_quote="Design with a Difference - Solderman"
      author_email="gadgets@dapj.com"/>
-<Content type="url" href="http://audio-visual-metronome.googlecode.com/svn/trunk/metronome.html" />
+<Content type="html"><![CDATA[
+<iframe src="http://audio-visual-metronome.googlecode.com/svn/trunk/metronome.html" marginwidth="0" marginheight="0" allowtransparency="true" frameborder="0" height="500" scrolling="no" width="210"></iframe>
+]]></Content>
 </Module>
